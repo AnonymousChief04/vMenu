@@ -334,6 +334,7 @@ namespace vMenuClient
                 IsAllowed(Permission.VSCommercial, checkAnyway: true),
                 IsAllowed(Permission.VSTrains, checkAnyway: true),
                 IsAllowed(Permission.VSOpenWheel, checkAnyway: true)
+                IsAllowed(Permission.VSTest, checkAnyway: true),
             };
             ArePermissionsSetup = true;
 
